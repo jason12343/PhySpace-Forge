@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Universal URDF Enhanced by PhySpace-Forge (Calibration ID: PSF-16608541E598B2EA) -->
+<robot name="tapered_coffee_cup">
+  <link name="base_link">
+    <inertial>
+      <origin xyz="0 0 0.0550" rpy="0 0 0"/>
+      <mass value="0.1718"/>
+      <inertia ixx="0.000254" ixy="0.0" ixz="0.0"
+               iyy="0.000254" iyz="0.0"
+               izz="0.000162"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0.0550" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.0376" length="0.1100"/>
+      </geometry>
+      <material name="physpace_cyan">
+        <color rgba="0.22 0.74 0.97 0.9"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0.0550" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.0376" length="0.1100"/>
+      </geometry>
+    </collision>
+    <contact>
+      <lateral_friction value="0.42"/>
+      <spinning_friction value="0.015"/>
+      <stiffness value="2223841.7"/>
+      <damping value="12.0"/>
+    </contact>
+  </link>
+
+  <!-- PhySpace-Forge Tactile & Continuum Sidecar Extension (Standard XML Extension) -->
+  <physpace_tactile version="0.1.0" signature="PSF-16608541E598B2EA">
+    <constitutive youngs_modulus_kpa="44476.83"
+                  poisson_ratio="0.3"
+                  yield_stress_kpa="6.0"
+                  mu_static="0.42"
+                  mu_dynamic="0.33"/>
+    <golden_safety_corridor p_slip_min_kpa="2.33"
+                            p_crush_max_kpa="4.24"
+                            optimal_target_kpa="3.29"/>
+  </physpace_tactile>
+</robot>

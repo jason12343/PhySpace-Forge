@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "physpace-forge"
+version = "0.1.0"
+description = "3D Physical Space Compiler (.physpack SCPP) & 200Hz RT-Patch-IPC Pascal Tactile Solver for Embodied AI"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Apache-2.0"}
+authors = [
+    {name = "PhySpace-Forge Open-Source Team"}
+]
+keywords = [
+    "embodied-ai",
+    "tactile-sensing",
+    "ipc",
+    "continuum-mechanics",
+    "gaussian-splatting",
+    "lerobot",
+    "robotics",
+    "vla",
+]
+dependencies = [
+    "numpy>=1.24.0",
+    "torch>=2.1.0",
+]
+
+[project.scripts]
+physpace = "physpace_forge.cli:main"
+physpace-forge = "physpace_forge.cli:main"
+
+[project.optional-dependencies]
+gpu = [
+    "warp-lang>=1.3.0",
+    "trimesh>=4.0.0",
+    "scipy>=1.11.0",
+    "h5py>=3.9.0",
+]
+gb10-vlm = [
+    "vllm>=0.6.0",
+    "transformers>=4.45.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["physpace_forge*"]

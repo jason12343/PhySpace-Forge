@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+output/*.physpack
+output/*.json
+output/*.h5
+.env
+*authenticator*
+*otpauth*
+*.pem
+*.key
+.vscode/
+.idea/

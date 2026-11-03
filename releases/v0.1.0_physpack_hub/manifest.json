@@ -1,0 +1,224 @@
+{
+  "release_version": "v0.1.0",
+  "package_format": ".physpack (SCPP v1)",
+  "calibration_db": "PhySpace-CalibDB-v1",
+  "total_assets": 12,
+  "assets": [
+    {
+      "object_id": "soft_silken_tofu",
+      "domain": "1_Fragile_Food",
+      "display_name": "Silken Tofu Block (嫩豆腐块)",
+      "file": "soft_silken_tofu.physpack",
+      "size_bytes": 147771,
+      "calibration_signature": "PSF-1D5BA71703F28D57",
+      "golden_safety_envelope": {
+        "p_slip_min_kpa": 2.24,
+        "p_crush_max_kpa": 4.47,
+        "optimal_target_pressure_kpa": 3.35,
+        "f_normal_slip_min_n": 0.591,
+        "safety_corridor_width_kpa": 2.23
+      },
+      "frame0_force_residual_n": 8.690804242927896e-06,
+      "num_tets": 480,
+      "num_2dgs_splats": 1024
+    },
+    {
+      "object_id": "ripe_strawberry",
+      "domain": "1_Fragile_Food",
+      "display_name": "Ripe Red Strawberry (熟透草莓)",
+      "file": "ripe_strawberry.physpack",
+      "size_bytes": 480858,
+      "calibration_signature": "PSF-DFCFB0BC53FEBC6F",
+      "golden_safety_envelope": {
+        "p_slip_min_kpa": 1.91,
+        "p_crush_max_kpa": 3.47,
+        "optimal_target_pressure_kpa": 2.69,
+        "f_normal_slip_min_n": 0.188,
+        "safety_corridor_width_kpa": 1.56
+      },
+      "frame0_force_residual_n": 2.22070142624764e-06,
+      "num_tets": 2880,
+      "num_2dgs_splats": 2176
+    },
+    {
+      "object_id": "avian_fresh_egg",
+      "domain": "1_Fragile_Food",
+      "display_name": "Raw Avian Egg (薄壳生鸡蛋)",
+      "file": "avian_fresh_egg.physpack",
+      "size_bytes": 480858,
+      "calibration_signature": "PSF-DA4C3C0D54F06E54",
+      "golden_safety_envelope": {
+        "p_slip_min_kpa": 7.69,
+        "p_crush_max_kpa": 13.99,
+        "optimal_target_pressure_kpa": 9.85,
+        "f_normal_slip_min_n": 0.688,
+        "safety_corridor_width_kpa": 6.3
+      },
+      "frame0_force_residual_n": 2.1949410433652616e-07,
+      "num_tets": 2880,
+      "num_2dgs_splats": 2176
+    },
+    {
+      "object_id": "tapered_coffee_cup",
+      "domain": "2_Kitchen_Vessels",
+      "display_name": "Waxed Paper Coffee Cup (薄壁纸咖啡杯)",
+      "file": "tapered_coffee_cup.physpack",
+      "size_bytes": 480957,
+      "calibration_signature": "PSF-C56E996F6B73F77A",
+      "golden_safety_envelope": {
+        "p_slip_min_kpa": 2.33,
+        "p_crush_max_kpa": 4.24,
+        "optimal_target_pressure_kpa": 3.29,
+        "f_normal_slip_min_n": 0.774,
+        "safety_corridor_width_kpa": 1.91
+      },
+      "frame0_force_residual_n": 2.2843480109724368e-06,
+      "num_tets": 2880,
+      "num_2dgs_splats": 2176
+    },
+    {
+      "object_id": "ergonomic_sports_bottle",
+      "domain": "2_Kitchen_Vessels",
+      "display_name": "Waisted PET Water Bottle (收腰薄壁水瓶)",
+      "file": "ergonomic_sports_bottle.physpack",
+      "size_bytes": 481314,
+      "calibration_signature": "PSF-B8F726869BD38743",
+      "golden_safety_envelope": {
+        "p_slip_min_kpa": 2.17,
+        "p_crush_max_kpa": 12.77,
+        "optimal_target_pressure_kpa": 7.08,
+        "f_normal_slip_min_n": 0.774,
+        "safety_corridor_width_kpa": 10.6
+      },
+      "frame0_force_residual_n": 5.321800708557589e-06,
+      "num_tets": 2880,
+      "num_2dgs_splats": 2176
+    },
+    {
+      "object_id": "wavy_scrub_sponge",
+      "domain": "2_Kitchen_Vessels",
+      "display_name": "Polyurethane Scrub Sponge (波浪洗碗海绵)",
+      "file": "wavy_scrub_sponge.physpack",
+      "size_bytes": 147804,
+      "calibration_signature": "PSF-D2A8245EB913FDC4",
+      "golden_safety_envelope": {
+        "p_slip_min_kpa": 1.27,
+        "p_crush_max_kpa": 168.51,
+        "optimal_target_pressure_kpa": 6.63,
+        "f_normal_slip_min_n": 0.136,
+        "safety_corridor_width_kpa": 167.24
+      },
+      "frame0_force_residual_n": 3.158971667305277e-06,
+      "num_tets": 480,
+      "num_2dgs_splats": 1024
+    },
+    {
+      "object_id": "corrugated_parcel_box",
+      "domain": "3_Logistics_Packaging",
+      "display_name": "Corrugated Parcel Box (瓦楞纸板快递箱)",
+      "file": "corrugated_parcel_box.physpack",
+      "size_bytes": 148128,
+      "calibration_signature": "PSF-FD1858D7A690ABED",
+      "golden_safety_envelope": {
+        "p_slip_min_kpa": 0.45,
+        "p_crush_max_kpa": 13.16,
+        "optimal_target_pressure_kpa": 6.22,
+        "f_normal_slip_min_n": 0.65,
+        "safety_corridor_width_kpa": 12.71
+      },
+      "frame0_force_residual_n": 1.6132593155138153e-05,
+      "num_tets": 480,
+      "num_2dgs_splats": 1024
+    },
+    {
+      "object_id": "bubble_padded_mailer",
+      "domain": "3_Logistics_Packaging",
+      "display_name": "Bubble-Padded Poly Mailer (气泡缓冲快递袋)",
+      "file": "bubble_padded_mailer.physpack",
+      "size_bytes": 148095,
+      "calibration_signature": "PSF-450023EBAB204472",
+      "golden_safety_envelope": {
+        "p_slip_min_kpa": 2.21,
+        "p_crush_max_kpa": 21.39,
+        "optimal_target_pressure_kpa": 7.11,
+        "f_normal_slip_min_n": 0.525,
+        "safety_corridor_width_kpa": 19.18
+      },
+      "frame0_force_residual_n": 7.287077605666603e-06,
+      "num_tets": 480,
+      "num_2dgs_splats": 1024
+    },
+    {
+      "object_id": "thin_blister_clamshell",
+      "domain": "3_Logistics_Packaging",
+      "display_name": "Thermoformed Blister Pack (薄壁吸塑包装盒)",
+      "file": "thin_blister_clamshell.physpack",
+      "size_bytes": 148225,
+      "calibration_signature": "PSF-E80DBC5C47950E98",
+      "golden_safety_envelope": {
+        "p_slip_min_kpa": 3.69,
+        "p_crush_max_kpa": 13.54,
+        "optimal_target_pressure_kpa": 7.84,
+        "f_normal_slip_min_n": 0.903,
+        "safety_corridor_width_kpa": 9.85
+      },
+      "frame0_force_residual_n": 5.801692605000852e-06,
+      "num_tets": 480,
+      "num_2dgs_splats": 1024
+    },
+    {
+      "object_id": "silicone_bellows_valve",
+      "domain": "4_Industrial_Medical",
+      "display_name": "Medical Silicone Bellows (医疗硅胶波纹囊)",
+      "file": "silicone_bellows_valve.physpack",
+      "size_bytes": 481153,
+      "calibration_signature": "PSF-799D1F8CBA2D03B0",
+      "golden_safety_envelope": {
+        "p_slip_min_kpa": 5.45,
+        "p_crush_max_kpa": 194.26,
+        "optimal_target_pressure_kpa": 8.72,
+        "f_normal_slip_min_n": 0.396,
+        "safety_corridor_width_kpa": 188.81
+      },
+      "frame0_force_residual_n": 3.758072852910743e-07,
+      "num_tets": 2880,
+      "num_2dgs_splats": 2176
+    },
+    {
+      "object_id": "soft_dropper_pipette_bulb",
+      "domain": "4_Industrial_Medical",
+      "display_name": "Latex Pipette Dropper Bulb (实验室滴管胶头)",
+      "file": "soft_dropper_pipette_bulb.physpack",
+      "size_bytes": 481380,
+      "calibration_signature": "PSF-1AB255EC2AAEA03E",
+      "golden_safety_envelope": {
+        "p_slip_min_kpa": 7.67,
+        "p_crush_max_kpa": 146.31,
+        "optimal_target_pressure_kpa": 9.84,
+        "f_normal_slip_min_n": 0.35,
+        "safety_corridor_width_kpa": 138.64
+      },
+      "frame0_force_residual_n": 5.99361956177269e-07,
+      "num_tets": 2880,
+      "num_2dgs_splats": 2176
+    },
+    {
+      "object_id": "nitrile_seal_housing",
+      "domain": "4_Industrial_Medical",
+      "display_name": "Nitrile-Coated Valve Sleeve (丁腈包胶阀套)",
+      "file": "nitrile_seal_housing.physpack",
+      "size_bytes": 481023,
+      "calibration_signature": "PSF-9C1D7299A3E751CF",
+      "golden_safety_envelope": {
+        "p_slip_min_kpa": 2.58,
+        "p_crush_max_kpa": 113.85,
+        "optimal_target_pressure_kpa": 7.29,
+        "f_normal_slip_min_n": 0.433,
+        "safety_corridor_width_kpa": 111.27
+      },
+      "frame0_force_residual_n": 4.282891750584383e-06,
+      "num_tets": 2880,
+      "num_2dgs_splats": 2176
+    }
+  ]
+}
