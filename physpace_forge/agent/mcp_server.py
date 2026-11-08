@@ -47,6 +47,8 @@ class PhySpaceMCPServer:
                 },
                 "capabilities": {
                     "tools": {"listChanged": False},
+                    "resources": {"listChanged": False},
+                    "prompts": {"listChanged": False},
                 },
             }
         elif method == "tools/list":
@@ -59,6 +61,12 @@ class PhySpaceMCPServer:
                 for t in PHYSPACE_AGENT_TOOLS
             ]
             result = {"tools": mcp_tools}
+        elif method == "resources/list":
+            result = {"resources": []}
+        elif method == "resources/templates/list":
+            result = {"resourceTemplates": []}
+        elif method == "prompts/list":
+            result = {"prompts": []}
         elif method == "tools/call":
             tool_name = str(params.get("name", ""))
             tool_args = params.get("arguments") or {}
